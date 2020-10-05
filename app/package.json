@@ -1,0 +1,43 @@
+{
+  "name": "electorrent",
+  "productName": "Electorrent",
+  "version": "2.6.1",
+  "description": "A thin client for your torrenting needs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tympanix/Electorrent.git"
+  },
+  "keywords": [
+    "Electorrent",
+    "Electron",
+    "uTorrent",
+    "Server",
+    "GUI"
+  ],
+  "author": {
+    "name": "tympanix",
+    "email": "tympanix@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tympanix/Electorrent/issues"
+  },
+  "homepage": "https://github.com/tympanix/Electorrent#readme",
+  "dependencies": {
+    "@electorrent/node-deluge": "^1.0.2",
+    "@electorrent/node-qbittorrent": "^1.0.2",
+    "@electorrent/node-rtorrent": "^1.2.1",
+    "electron-is": "^2.4.0",
+    "electron-regedit": "^1.0.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "request": "^2.74.0",
+    "semver": "^5.3.0",
+    "winston": "^2.2.0",
+    "yargs": "^4.8.1"
+  },
+  "devDependencies": {}
+}

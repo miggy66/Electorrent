@@ -1,0 +1,40 @@
+{
+  "name": "electorrent",
+  "description": "An Electron/Node/AngularJS remote client app for uTorrent server",
+  "main": "app.js",
+  "authors": [
+    "tympanix"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "utorrent"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.9",
+    "angular-resource": "~1.5.9",
+    "semantic": "^2.2.2",
+    "moment": "momentjs#^2.13.0",
+    "jquery": "^3.0.0",
+    "angular-animate": "~1.5.9",
+    "ngInfiniteScroll": "^1.2.2",
+    "angular-marked": "^1.2.1",
+    "angular-ui-sortable": "^0.16.1",
+    "underscore": "^1.8.3",
+    "angular-table-resize": "^2.0.1",
+    "base64-js": "^1.2.0",
+    "fuse.js": "^3.0.5",
+    "mousetrap": "^1.6.2"
+  },
+  "resolutions": {
+    "angular": "1.5.8",
+    "jquery": ">=3.1.x"
+  }
+}
